@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		EB5EE8F8275E568A00665FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE8F7275E568A00665FB1 /* AppDelegate.swift */; };
 		EB5EE8FA275E568A00665FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE8F9275E568A00665FB1 /* SceneDelegate.swift */; };
-		EB5EE8FC275E568A00665FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE8FB275E568A00665FB1 /* ViewController.swift */; };
 		EB5EE8FF275E568A00665FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5EE8FD275E568A00665FB1 /* Main.storyboard */; };
 		EB5EE901275E569400665FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5EE900275E569400665FB1 /* Assets.xcassets */; };
 		EB5EE904275E569400665FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5EE902275E569400665FB1 /* LaunchScreen.storyboard */; };
+		EB5EE90F275E58A700665FB1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE90E275E58A700665FB1 /* Task.swift */; };
+		EB5EE911275E5A1B00665FB1 /* TasksStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE910275E5A1B00665FB1 /* TasksStorage.swift */; };
+		EB5EE917275E792B00665FB1 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE916275E792B00665FB1 /* TaskCell.swift */; };
+		EB5EE919275F7A9400665FB1 /* TaskListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE918275F7A9400665FB1 /* TaskListController.swift */; };
+		EBFA027F276370510021FE79 /* TaskEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA027E276370510021FE79 /* TaskEditController.swift */; };
+		EBFA0281276377590021FE79 /* TaskTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA0280276377590021FE79 /* TaskTypeController.swift */; };
+		EBFA028427637E500021FE79 /* TaskTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA028227637E500021FE79 /* TaskTypeCell.swift */; };
+		EBFA028527637E500021FE79 /* TaskTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFA028327637E500021FE79 /* TaskTypeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB5EE8F4275E568A00665FB1 /* To Do manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5EE8F7275E568A00665FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB5EE8F9275E568A00665FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB5EE8FB275E568A00665FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB5EE8FE275E568A00665FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB5EE900275E569400665FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB5EE903275E569400665FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB5EE905275E569500665FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5EE90E275E58A700665FB1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EB5EE910275E5A1B00665FB1 /* TasksStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksStorage.swift; sourceTree = "<group>"; };
+		EB5EE916275E792B00665FB1 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		EB5EE918275F7A9400665FB1 /* TaskListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListController.swift; sourceTree = "<group>"; };
+		EBFA027E276370510021FE79 /* TaskEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditController.swift; sourceTree = "<group>"; };
+		EBFA0280276377590021FE79 /* TaskTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeController.swift; sourceTree = "<group>"; };
+		EBFA028227637E500021FE79 /* TaskTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeCell.swift; sourceTree = "<group>"; };
+		EBFA028327637E500021FE79 /* TaskTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTypeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,8 @@
 		EB5EE8EB275E568A00665FB1 = {
 			isa = PBXGroup;
 			children = (
+				EB5EE912275E786800665FB1 /* View */,
+				EB5EE90D275E588E00665FB1 /* Model */,
 				EB5EE8F6275E568A00665FB1 /* To Do manager */,
 				EB5EE8F5275E568A00665FB1 /* Products */,
 			);
@@ -58,13 +74,42 @@
 			children = (
 				EB5EE8F7275E568A00665FB1 /* AppDelegate.swift */,
 				EB5EE8F9275E568A00665FB1 /* SceneDelegate.swift */,
-				EB5EE8FB275E568A00665FB1 /* ViewController.swift */,
 				EB5EE8FD275E568A00665FB1 /* Main.storyboard */,
+				EBFA0280276377590021FE79 /* TaskTypeController.swift */,
+				EB5EE918275F7A9400665FB1 /* TaskListController.swift */,
+				EBFA027E276370510021FE79 /* TaskEditController.swift */,
 				EB5EE900275E569400665FB1 /* Assets.xcassets */,
 				EB5EE902275E569400665FB1 /* LaunchScreen.storyboard */,
 				EB5EE905275E569500665FB1 /* Info.plist */,
 			);
 			path = "To Do manager";
+			sourceTree = "<group>";
+		};
+		EB5EE90D275E588E00665FB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB5EE90E275E58A700665FB1 /* Task.swift */,
+				EB5EE910275E5A1B00665FB1 /* TasksStorage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB5EE912275E786800665FB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB5EE913275E788700665FB1 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB5EE913275E788700665FB1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EB5EE916275E792B00665FB1 /* TaskCell.swift */,
+				EBFA028227637E500021FE79 /* TaskTypeCell.swift */,
+				EBFA028327637E500021FE79 /* TaskTypeCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +172,7 @@
 			files = (
 				EB5EE904275E569400665FB1 /* LaunchScreen.storyboard in Resources */,
 				EB5EE901275E569400665FB1 /* Assets.xcassets in Resources */,
+				EBFA028527637E500021FE79 /* TaskTypeCell.xib in Resources */,
 				EB5EE8FF275E568A00665FB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB5EE8FC275E568A00665FB1 /* ViewController.swift in Sources */,
+				EB5EE90F275E58A700665FB1 /* Task.swift in Sources */,
+				EB5EE911275E5A1B00665FB1 /* TasksStorage.swift in Sources */,
+				EB5EE919275F7A9400665FB1 /* TaskListController.swift in Sources */,
 				EB5EE8F8275E568A00665FB1 /* AppDelegate.swift in Sources */,
+				EBFA0281276377590021FE79 /* TaskTypeController.swift in Sources */,
+				EB5EE917275E792B00665FB1 /* TaskCell.swift in Sources */,
 				EB5EE8FA275E568A00665FB1 /* SceneDelegate.swift in Sources */,
+				EBFA027F276370510021FE79 /* TaskEditController.swift in Sources */,
+				EBFA028427637E500021FE79 /* TaskTypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
